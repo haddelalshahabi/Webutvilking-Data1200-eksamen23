@@ -1,0 +1,136 @@
+<!-- Setting the document type to HTML5 -->
+<!DOCTYPE html>
+
+<!-- Starting the HTML document and setting the language to Norwegian -->
+<html lang="no">
+
+<!-- Head section: Contains metadata, links to stylesheets, and other resources -->
+<head>
+    <!-- Character set declaration for universal text compatibility -->
+    <meta charset="UTF-8">
+    
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title: Defines the title of the web page shown in the browser tab -->
+    <title>Accessibility page</title>
+    
+    <!-- Meta description: Brief description of the page for search engines and social media -->
+    <meta name="description" content="Accessibility page">
+    
+    <!-- External CSS: Link to the main stylesheet for styling the webpage -->
+    <link rel="stylesheet" type="text/css" href="../css/accessibility.css">
+    
+    <!-- Font Awesome: Provides icons for UI enhancement -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Favicon: Small icon associated with the site, displayed in the browser tab -->
+    <link rel="shortcut icon" href="../Images/page-icon.png" type="image/x-icon">
+    <link rel="icon" href="../Images/page-icon.png" type="image/x-icon">
+    
+    <!-- Additional version of Font Awesome for extended icon options -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<!-- Body: Contains the content of the web page -->
+<body>
+    <!-- Grid container: Main layout structure for the entire page -->
+    <div id="grid-container">
+        <!-- Header: Top section of the webpage, includes navigation and branding -->
+        <header>
+            <!-- Navigation bar: Contains links to other pages and interactive elements -->
+            <nav>
+                <!-- Logo: Represents the brand identity; links back to the homepage -->
+                <a href="index.html">
+                    <img id="logo" src="../Images/logo.jpg" alt="Logo placeholder image">
+                </a>
+
+                <!-- Mobile menu toggle: Checkbox hack for a responsive menu button -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="menu-button" aria-label="Open the menu">
+                    <span class="links"></span>
+                    <span class="links"></span>
+                    <span class="links"></span>
+                </label>
+                
+                <!-- Navigation links: List of links for site navigation -->
+                <div class="my-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                        <li><a href="topical.html">Topical</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a id="contact-us" href="contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                 <!-- Scroll-to-top button: Allows users to quickly navigate back to the top of the page -->
+                 <a class="move-page-up" href="#" aria-label="Move Page Up">
+                    <i class="fa fa-arrow-circle-up"></i>
+                </a>
+            </nav>
+
+        <header>
+            <div id="headerText">
+                <h1>Tilgjengelighet</h1>
+                <p>Velkommen til vår side dedikert til tilgjengelighet. På OsloMet forstår vi viktigheten av å skape et nettsted som er tilgjengelig for alle brukere, uavhengig av deres evner eller bruken av assistiv teknologi. Tilgjengelighet betyr å designe våre digitale ressurser slik at de kan brukes av så mange mennesker som mulig, inkludert de med funksjonsnedsettelser som påvirker deres syn, hørsel, motoriske ferdigheter eller kognitive evner.</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="fancy-box">
+                <h1>Planlegging og Implementering av Universell Utforming</h1>
+                <p>Fra starten av designprosessen har vi integrert prinsipper for universell utforming i vår nettside. Dette inkluderer: </p>
+                <section>
+                    <h2>Bruk av Semantisk HTML:</h2>
+                    <p>Ved å bruke HTML-elementer i henhold til deres formål, hjelper vi assistiv teknologi med å forstå og tolke innholdet på siden vår riktig.</p>
+                </section>
+                 <section>
+            <h2>Alt-tekster for Bilder</h2>
+            <p>Alle bilder på nettstedet inkluderer beskrivende alt-tekster som gjør innholdet tilgjengelig for skjermlesere.</p>
+        </section>
+        
+        <section>
+            <h2>Tilgjengelig Navigasjon</h2>
+            <p>Vår nettstedsnavigasjon er designet for å være enkel og intuitiv, med tastatur-navigasjon og skjermleser-kompatibilitet som en prioritet.</p>
+        </section>
+        
+        <section>
+            <h2>Tilgjengelig Fargekontrast</h2>
+            <p>Fargevalgene er testet for å sikre at de er lesbare for brukere med fargevisjonsforstyrrelser.</p>
+        </section>
+        
+        <section>
+            <h2>Responsivt Design</h2>
+            <p>Siden er bygget for å være brukervennlig på en rekke enheter, inkludert mobile skjermer og tabletter, sikrer at alle brukere kan få tilgang til vårt innhold uansett hvilken enhet de bruker.</p>
+        </section>
+        
+        <section>
+            <h2>Kontinuerlig Forbedring</h2>
+            <p>Ved å anvende disse og andre tilgjengelighetsteknikker, arbeider vi mot et nettsted som er mer inkluderende og tilgjengelig for alle. Vi forstår at tilgjengelighet er en løpende prosess og er forpliktet til kontinuerlig forbedring. Vi verdsetter tilbakemelding fra våre brukere og bruker denne informasjonen til å gjøre nettstedet vårt enda bedre.</p>
+        </section>
+            
+        </main>
+
+        <!-- Footer: Contains additional information, links, and credits -->
+        <footer>
+            <!-- Contact information: Displays various ways to contact the organization -->
+            <section class="contact-info">
+              <h3>Contact Information</h3>
+              <p>Email:<a href="mailto:info@oslomet.no"><i class="fa-solid fa-envelope"></i> info@oslomet.no</a></p>
+            </section>
+          
+            <!-- Social media links: Encourages users to follow the organization on social platforms -->
+            <section class="social-media">
+              <h3>Follow Us</h3>
+              <p>Follow us on social media to stay updated: <a href="https://www.facebook.com/OsloMet/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>, <a href="https://www.instagram.com/oslomet/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>.</p>
+            </section>
+          
+            <!-- Copyright: Legal statement regarding the ownership of the website's content -->
+            <section class="copyright">
+              <p>&copy; 2023 OsloMet - Storbyuniversitetet. All rights reserved.</p>
+            </section>
+        </footer>                   
+    </div>
+</body>
+</html>

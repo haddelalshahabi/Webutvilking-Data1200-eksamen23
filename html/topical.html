@@ -1,0 +1,146 @@
+<!-- Setting the document type to HTML5 -->
+<!DOCTYPE html>
+
+<!-- Starting the HTML document and setting the language to Norwegian -->
+<html lang="no">
+
+<!-- Head section: Contains metadata, links to stylesheets, and other resources -->
+<head>
+    <!-- Character set declaration for universal text compatibility -->
+    <meta charset="UTF-8">
+    
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title: Defines the title of the web page shown in the browser tab -->
+    <title>Topical page</title>
+    
+    <!-- Meta description: Brief description of the page for search engines and social media -->
+    <meta name="description" content="Topical page">
+    
+    <!-- External CSS: Link to the main stylesheet for styling the webpage -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <!-- Font Awesome: Provides icons for UI enhancement -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Favicon: Small icon associated with the site, displayed in the browser tab -->
+    <link rel="shortcut icon" href="../Images/page-icon.png" type="image/x-icon">
+    <link rel="icon" href="../Images/page-icon.png" type="image/x-icon">
+    
+    <!-- Additional version of Font Awesome for extended icon options -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<!-- Body: Contains the content of the web page -->
+<body>
+    <!-- Grid container: Main layout structure for the entire page -->
+    <div id="grid-container">
+        <!-- Header: Top section of the webpage, includes navigation and branding -->
+        <header>
+            <!-- Navigation bar: Contains links to other pages and interactive elements -->
+            <nav>
+                <!-- Logo: Represents the brand identity; links back to the homepage -->
+                <a href="index.html">
+                    <img id="logo" src="../Images/logo.jpg" alt="Logo placeholder image">
+                </a>
+
+                <!-- Mobile menu toggle: Checkbox hack for a responsive menu button -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="menu-button" aria-label="Open the menu">
+                    <span class="links"></span>
+                    <span class="links"></span>
+                    <span class="links"></span>
+                </label>
+                
+                <!-- Navigation links: List of links for site navigation -->
+                <div class="my-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                        <li><a href="topical.html">Topical</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a id="contact-us" href="contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                 <!-- Scroll-to-top button: Allows users to quickly navigate back to the top of the page -->
+                 <a class="move-page-up" href="#" aria-label="Move Page Up">
+                    <i class="fa fa-arrow-circle-up"></i>
+                </a>
+            </nav>
+
+            <div id="header-text">
+                <h1>Aktuelt</h1>
+                <p>
+                    Technology's dual impact on society and education is highlighted, focusing on both the advantages and drawbacks of mobile phones and remote learning, particularly in light of the COVID-19 pandemic's influence on societal and educational practices.
+                </p>
+            </div>
+        </header>
+
+        <main id="main-topical">
+            <article id="dynamic-article">
+                <!-- Article Section 1: The Complex Nature of Mobile Phones -->
+                <div class="article-section">
+                    <!-- Image sourced from "Smart Phone Addiction and the Association with Anxiety, Depression, and ADHD" on Iowa Infinity's website. Specific photographer details not provided. See more at https://www.iowainfinity.com/limitless-child/2020/04/27/smart-phone-addiction-and-the-association-with-anxiety-depression-and-adhd -->
+                    <img src="../Images/smartphone-use.jpg" alt="Placeholder smartphone-use Image 1">
+                    <div class="text-content">
+                        <h1>Mobile Phones: Technical and Social Dimensions</h1>
+                        <p>In the video, Hanne Cecilie discusses how a mobile phone can be understood as a technical device, a social device, and a phenomenon that reveals societal values. How can a mobile phone be interpreted through the lens of your field of study, and what do you think are its social implications? Personally, we've noticed that mobile phones have become a significant part of our lives and society. Although we don't use mobile phones extensively in our studies, they still play a vital role in our student life. In our field, mobile phones can be used for learning, such as downloading apps that help in learning programming languages, etc. However, we believe that mobile phones can be a major distraction across all fields of study. Read more about this at the <a href="https://greatergood.berkeley.edu/article/item/how_smartphones_are_killing_conversation">Greater Good Science Center at UC Berkeley</a>.</p>
+                    </div>
+                </div>
+
+                <!-- Article Section 2: The Dual Role of Mobile Phones in Education -->
+                <div class="article-section reverse">
+                    <!-- Image of "Student using smartphone while studying" by Dragana_Gordic, sourced from Freepik. See more at https://www.freepik.com/free-photo/student-using-smartphone-while-studying-student-with-martphone-addiction-concept-technology-concept-student-looking-phone-writing-something_1191789.htm -->
+                    <img src="../Images/studing-with-smartphone.jpg" alt="Placeholder studing-with-smartphone Image 2">
+                    <div class="text-content">
+                        <h1>Educational Utility and Distraction of Mobile Phones</h1>
+                        <p>They are a distraction because they have social media and other apps that can reduce focus when you receive a message. On the other hand, there are also advantages. For example, the 'Studentkortet' app offers students discounts on food, coffee, clothes, and many other benefits. Additionally, it's possible to buy tickets cheaper and more efficiently digitally via various transit apps. Mobile phones and screens tend to isolate us, as many people prefer to sit in front of a computer screen rather than physically attending school. For instance, in discrete mathematics classes, the number of students attending via Zoom exceeds those present at school, even though many believe that physical learning is more effective. For more insights, refer to <a href="https://www.edweek.org/technology/cellphones-in-schools-a-huge-nuisance-and-a-powerful-teaching-tool/2022/03">cellphones in schools a huge nuisance and a powerful teaching tool</a>.</p>
+                    </div>
+                </div>
+
+                <!-- Article Section 3: Technological Evolution and Societal Values -->
+                <div class="article-section">
+                    <!-- Image sourced from "Engaging with Technology" on Global Focus Magazine's website. Specific photographer details not provided. See more at https://www.globalfocusmagazine.com/engaging-with-technology/ -->
+                    <img src="../Images/technological-advancement.png" alt="Placeholder technological-advancement Image 3">
+                    <div class="text-content">
+                        <h1>The Impact of Technology on Changing Societal Values</h1>
+                        <p>Think about the development of technology relevant to your field of study. For health science, it could be biotechnology; for computer engineering, it might be an application of machine learning; and for teaching, it could be digital technology used in the classroom. Is the development of this technology connected to a change in societal values? How? Do you approve of this change, or do you have concerns? Life is constantly evolving with new challenges and the need for development. Due to the COVID-19 pandemic, schools closed, leading to the start of remote learning. This shift brought about significant digital advancement in society, altering some old values. For further reading, check out <a href="https://soeonline.american.edu/blog/technology-in-education/">How Important Is Technology in Education?</a>.</p>
+                    </div>
+                </div>
+
+                <!-- Article Section 4: Remote Learning and Its Broad Impact -->
+                <div class="article-section reverse fourth-section">
+                    <!-- Image sourced from "My Experience with Virtual Classes in High School" on Perkins School for the Blind's website. Specific photographer details not provided. See more at https://www.perkins.org/resource/my-experience-with-virtual-classes-in-high-school/ -->
+                    <img src="../Images/virtual-class.jpg" alt="Placeholder virtual-class Image 4" class="adjust-image">
+                    <div class="text-content">
+                        <h1>Remote Learning: Advantages and Challenges</h1>
+                        <p>But how is technology tied to these changes in societal values? Are there advantages or disadvantages to these changes? School values have changed significantly recently. Students have lost their old routines and struggle to prepare for school. They wake up about five minutes before class starts, open their laptops, and log into Zoom. This leads to less physical activity compared to when attending school in person. Traveling to school involved getting ready, taking public transport like buses or bikes, and enjoying fresh air and a morning walk. Since students wake up just minutes before their online classes, they often skip breakfast. This leads to a lack of energy and potentially affects their ability to remember what they learn. During remote classes, students stay at home and learn via computers. This makes us less social and our daily lives less efficient. This is one reason why many experienced depression during the pandemic. Active individuals felt they couldn't do much with their lives, leading to severe situations like depression and, in some cases, suicide. On the other hand, technology has also positively changed societal values. When the coronavirus started spreading, remote learning was a significant advantage for students, proving technology to be extremely useful and reducing infection rates.To explore more about the impact of technology on education, visit the <a href="https://penntoday.upenn.edu/news/online-learnings-impact-student-performance">Online learning impact student perfomance</a>.</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer: Contains additional information, links, and credits -->
+        <footer>
+            <!-- Contact information: Displays various ways to contact the organization -->
+            <section class="contact-info">
+              <h3>Contact Information</h3>
+              <p>Email:<a href="mailto:info@oslomet.no"><i class="fa-solid fa-envelope"></i> info@oslomet.no</a></p>
+            </section>
+          
+            <!-- Social media links: Encourages users to follow the organization on social platforms -->
+            <section class="social-media">
+              <h3>Follow Us</h3>
+              <p>Follow us on social media to stay updated: <a href="https://www.facebook.com/OsloMet/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>, <a href="https://www.instagram.com/oslomet/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>.</p>
+            </section>
+          
+            <!-- Copyright: Legal statement regarding the ownership of the website's content -->
+            <section class="copyright">
+              <p>&copy; 2023 OsloMet - Storbyuniversitetet. All rights reserved.</p>
+            </section>
+        </footer> 
+    </div>               
+</body>
+</html>

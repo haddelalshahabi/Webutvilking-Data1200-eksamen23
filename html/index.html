@@ -1,0 +1,152 @@
+<!-- Setting the document type to HTML5 -->
+<!DOCTYPE html>
+
+<!-- Starting the HTML document and setting the language to Norwegian -->
+<html lang="no">
+
+<!-- Head section: Contains metadata, links to stylesheets, and other resources -->
+<head>
+    <!-- Character set declaration for universal text compatibility -->
+    <meta charset="UTF-8">
+    
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title: Defines the title of the web page shown in the browser tab -->
+    <title>Home page</title>
+    
+    <!-- Meta description: Brief description of the page for search engines and social media -->
+    <meta name="description" content="Home page">
+    
+    <!-- External CSS: Link to the main stylesheet for styling the webpage -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <!-- Font Awesome: Provides icons for UI enhancement -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Favicon: Small icon associated with the site, displayed in the browser tab -->
+    <link rel="shortcut icon" href="../Images/page-icon.png" type="image/x-icon">
+    <link rel="icon" href="../Images/page-icon.png" type="image/x-icon">
+    
+    <!-- Additional version of Font Awesome for extended icon options -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<!-- Body: Contains the content of the web page -->
+<body>
+    <!-- Grid container: Main layout structure for the entire page -->
+    <div id="grid-container">
+        <!-- Header: Top section of the webpage, includes navigation and branding -->
+        <header>
+            <!-- Navigation bar: Contains links to other pages and interactive elements -->
+            <nav>
+                <!-- Logo: Represents the brand identity; links back to the homepage -->
+                <a href="index.html">
+                    <img id="logo" src="../Images/logo.jpg" alt="Logo placeholder image">
+                </a>
+
+                <!-- Mobile menu toggle: Checkbox hack for a responsive menu button -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                <label for="menu-toggle" class="menu-button" aria-label="Open the menu">
+                    <span class="links"></span>
+                    <span class="links"></span>
+                    <span class="links"></span>
+                </label>
+                
+                <!-- Navigation links: List of links for site navigation -->
+                <div class="my-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                        <li><a href="topical.html">Topical</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a id="contact-us" href="contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                
+                 <!-- Scroll-to-top button: Allows users to quickly navigate back to the top of the page -->
+                 <a class="move-page-up" href="#" aria-label="Move Page Up">
+                    <i class="fa fa-arrow-circle-up"></i>
+                </a>
+            </nav>
+
+            <!-- Header text: Main heading and introduction for the page -->
+            <div id="header-text">
+                <!-- Main heading -->
+                <h1>OsloMet Campus - Pilestredet 35</h1>
+                
+                <!-- Brief description about the campus -->
+                <p>Pilestredet 35 is a vibrant spot at OsloMet, right in the heart of Oslo city center. This modern building houses a variety of study programs and is a place for learning, creativity, and student engagement. Here, you'll find state-of-the-art facilities, lively study areas, and an inclusive atmosphere. We are dedicated to accessibility and sustainability and welcome everyone to become part of our inspiring community. Join us and explore all that OsloMet has to offer!</p>
+            </div>
+        </header>
+
+        <!-- Main content: Primary content area of the webpage -->
+        <main>
+            <!-- Articles section: Flexible container for news or blog articles -->
+            <section class="flex-container">
+                
+                <!-- Article: Individual content block with image, heading, and text -->
+                <article class="card">
+                    <figure>
+                        <!-- Image sourced from Eurosign's project page for OsloMet; specific photographer or company details not provided. See more at https://www.eurosign.no/prosjekter/oslomet -->
+                        <img src="../Images/home-accessibility.jpg" alt="Image from Pixabay">
+                    </figure>
+                    <h3>Accessibility</h3>
+                    <p>Discover how OsloMet champions accessibility! Our dedicated page provides a snapshot of our ongoing efforts to ensure our campus and digital presence can be navigated by everyone. Click 'Read more' to learn about our commitment to inclusive design and the measures we've implemented to create an environment that welcomes all.</p>
+                    <a href="accessibility.html" class="button">Read more</a>
+
+                </article>
+                
+                <!-- Second article -->
+                <article class="card">
+                    <figure>
+                        <!--Bildet kommentar-->
+                        <img src="../Images/virtual-class.jpg" alt="Image from Pixabay">
+                    </figure>
+                    <h3>Topical</h3>
+                    <p>Delve into 'The Interplay Between Technology and Society' at our university library. Explore how mobile phones transcend being mere technical devices to becoming integral social tools that reflect our values and reshape our daily routines. Engage with discussions on the benefits and challenges of technological integration in our lives, from student discounts to remote learning's impact. Click 'Read more' to uncover insights on how technology is intertwined with academic and social changes, and share your perspective on its role in shaping our community.</p>
+                    <a href="topical.html" class="button">Read more</a>
+                </article>
+                
+                <!-- Third article -->
+                <article class="card">
+                    <figure>
+                        <!-- Image sourced from Eurosign's project page for OsloMet; specific photographer or company details not provided. See more at https://www.eurosign.no/prosjekter/oslomet -->
+                        <img src="../Images/home-location.jpg" alt="Image from Pixabay">
+                    </figure>
+                    <h3>Location</h3>
+                    <p>Explore the heartbeat of OsloMet – our central campus at Pilestredet 35! Dive into the vibrant map to discover the array of facilities, from the bustling cafeteria to the well-stocked library. Each spot on the map tells a story of innovation, learning, and community. Click 'Read more' to navigate the spaces that make our university a dynamic place to study, meet, and grow.</p>
+                    <a href="location.html" class="button">Read more </a>
+                </article>
+            </section>
+            
+            <!-- Contact section: Dedicated area for contact information -->
+            <section class="contact_flex">
+                <div class="sec1">
+                    <a href="contact-us.html">Contact us</a>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Footer: Contains additional information, links, and credits -->
+        <footer>
+            <!-- Contact information: Displays various ways to contact the organization -->
+            <section class="contact-info">
+              <h3>Contact Information</h3>
+              <p>Email:<a href="mailto:info@oslomet.no"><i class="fa-solid fa-envelope"></i> info@oslomet.no</a></p>
+            </section>
+          
+            <!-- Social media links: Encourages users to follow the organization on social platforms -->
+            <section class="social-media">
+              <h3>Follow Us</h3>
+              <p>Follow us on social media to stay updated: <a href="https://www.facebook.com/OsloMet/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> Facebook</a>, <a href="https://www.instagram.com/oslomet/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>.</p>
+            </section>
+          
+            <!-- Copyright: Legal statement regarding the ownership of the website's content -->
+            <section class="copyright">
+              <p>&copy; 2023 OsloMet - Storbyuniversitetet. All rights reserved.</p>
+            </section>
+        </footer>      
+    </div>
+</body>
+</html>
